@@ -1,0 +1,23 @@
+.time-picker {
+    padding: 10px 0;
+  }
+  
+  .time-slots {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+  }
+  
+  .time-slot {
+    --padding-start: 8px;
+    --padding-end: 8px;
+    --min-height: 40px;
+    width: calc(33.33% - 8px);
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  }
+  
+  ion-radio {
+    margin-right: 6px;
+  }

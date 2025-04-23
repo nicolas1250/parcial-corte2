@@ -1,0 +1,106 @@
+.app-page-title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  
+  .card-container {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  }
+  
+  .card-title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: var(--ion-color-restaurant-primary);
+    border-bottom: 2px solid var(--ion-color-restaurant-secondary);
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+  }
+  
+  .restaurant-input {
+    --border-color: var(--ion-color-restaurant-secondary);
+    --border-radius: 8px;
+    --padding-start: 12px;
+    margin-bottom: 8px;
+  }
+  
+  .restaurant-input:focus {
+    --border-color: var(--ion-color-restaurant-primary);
+  }
+  
+  .button-reservation {
+    --border-radius: 8px;
+    font-weight: 500;
+    text-transform: none;
+    letter-spacing: 0.5px;
+    height: 48px;
+    margin: 16px 0;
+    --box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .button-reservation:hover {
+    --box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .responsive-grid {
+    padding: 16px;
+  }
+  
+  .form-section {
+    margin-bottom: 24px;
+  }
+  
+  .restaurant-label {
+    color: var(--ion-color-restaurant-primary);
+    font-weight: 500;
+  }
+  
+  .table-button {
+    height: 100px;
+    margin: 8px 0;
+    border-radius: 10px;
+    font-size: 0.9em;
+    line-height: 1.4;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+  }
+  
+  .table-button:hover:not([disabled]) {
+    transform: scale(1.05);
+  }
+  
+  .table-button.selected {
+    font-weight: bold;
+    box-shadow: 0 0 0 3px var(--ion-color-restaurant-primary);
+  }
+  
+  .footer-content {
+    padding: 8px 16px;
+  }
+  
+  .datetime-custom {
+    --placeholder-color: var(--ion-color-step-600);
+    border: 1px solid var(--ion-color-restaurant-secondary);
+    border-radius: 8px;
+    padding: 4px;
+  }
+  
+  .page-content {
+    --background: #f8f8f8;
+    --padding-top: 16px;
+    --padding-bottom: 16px;
+  }
+  
+  .restaurant-header {
+    --background: var(--ion-color-restaurant-primary);
+  }

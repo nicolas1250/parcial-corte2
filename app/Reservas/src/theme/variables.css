@@ -1,0 +1,51 @@
+:root {
+    /* Colores personalizados para el restaurante */
+    --ion-color-restaurant-primary: #8e4a49;
+    --ion-color-restaurant-primary-rgb: 142, 74, 73;
+    --ion-color-restaurant-primary-contrast: #ffffff;
+    --ion-color-restaurant-primary-contrast-rgb: 255, 255, 255;
+    --ion-color-restaurant-primary-shade: #7d4140;
+    --ion-color-restaurant-primary-tint: #99605f;
+  
+    --ion-color-restaurant-secondary: #e8c39e;
+    --ion-color-restaurant-secondary-rgb: 232, 195, 158;
+    --ion-color-restaurant-secondary-contrast: #000000;
+    --ion-color-restaurant-secondary-contrast-rgb: 0, 0, 0;
+    --ion-color-restaurant-secondary-shade: #ccac8b;
+    --ion-color-restaurant-secondary-tint: #eac9a8;
+  
+    --ion-color-restaurant-accent: #698269;
+    --ion-color-restaurant-accent-rgb: 105, 130, 105;
+    --ion-color-restaurant-accent-contrast: #ffffff;
+    --ion-color-restaurant-accent-contrast-rgb: 255, 255, 255;
+    --ion-color-restaurant-accent-shade: #5c725c;
+    --ion-color-restaurant-accent-tint: #788f78;
+  }
+  
+  /* Definir clases de color personalizadas */
+  .ion-color-restaurant-primary {
+    --ion-color-base: var(--ion-color-restaurant-primary);
+    --ion-color-base-rgb: var(--ion-color-restaurant-primary-rgb);
+    --ion-color-contrast: var(--ion-color-restaurant-primary-contrast);
+    --ion-color-contrast-rgb: var(--ion-color-restaurant-primary-contrast-rgb);
+    --ion-color-shade: var(--ion-color-restaurant-primary-shade);
+    --ion-color-tint: var(--ion-color-restaurant-primary-tint);
+  }
+  
+  .ion-color-restaurant-secondary {
+    --ion-color-base: var(--ion-color-restaurant-secondary);
+    --ion-color-base-rgb: var(--ion-color-restaurant-secondary-rgb);
+    --ion-color-contrast: var(--ion-color-restaurant-secondary-contrast);
+    --ion-color-contrast-rgb: var(--ion-color-restaurant-secondary-contrast-rgb);
+    --ion-color-shade: var(--ion-color-restaurant-secondary-shade);
+    --ion-color-tint: var(--ion-color-restaurant-secondary-tint);
+  }
+  
+  .ion-color-restaurant-accent {
+    --ion-color-base: var(--ion-color-restaurant-accent);
+    --ion-color-base-rgb: var(--ion-color-restaurant-accent-rgb);
+    --ion-color-contrast: var(--ion-color-restaurant-accent-contrast);
+    --ion-color-contrast-rgb: var(--ion-color-restaurant-accent-contrast-rgb);
+    --ion-color-shade: var(--ion-color-restaurant-accent-shade);
+    --ion-color-tint: var(--ion-color-restaurant-accent-tint);
+  }
